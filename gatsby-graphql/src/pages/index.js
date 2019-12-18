@@ -1,23 +1,18 @@
 import React from "react"
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { graphql, Link } from "gatsby"
 import { css } from "@emotion/core"
 import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
+import '../all.css'
 
 export default ({ data }) => {
   console.log(data)
   return (
     <Layout>
       <div>
-        <h1
-          css={css`
-            display: inline-block;
-            border-bottom: 1px solid;
-          `}
-        >
-          Amazing Pandas Eating Things
-        </h1>
-        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+        
+        <h4 style={{textAlign: "right"}}>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link to={node.fields.slug} css={{textDecoration: "none", color: "inherit"}}>

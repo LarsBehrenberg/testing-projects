@@ -1,7 +1,11 @@
 ---
-title: "Sweet Pandas Eating Sweets"
+title: "Hello World!"
 date: "2017-08-10"
 ---
+
+This is a hello world post!
+
+'Cause every blog needs a hello word post!
 
 Pandas are really sweet.
 
