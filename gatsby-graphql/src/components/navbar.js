@@ -13,7 +13,7 @@ const Navbar = () => (
         font-style: normal;
       `}
     >
-      Lars Behrenberg
+      Gatsby Starter
     </h3>
     </Link>
     <Link
