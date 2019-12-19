@@ -1,0 +1,25 @@
+.container {
+    display: flex
+}
+
+.leftCol{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+
+.leftCol>p{
+    margin-top: 10px;
+}
+
+.profile-image{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.rightCol{
+    max-width: 700px;
+}
